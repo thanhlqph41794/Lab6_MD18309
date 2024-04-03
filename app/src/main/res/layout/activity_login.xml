@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="#E9CFEF"
+    >
+    <TextView android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/boder"
+        android:paddingLeft="5dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Email"
+        android:id="@+id/email_login"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/boder"
+        android:paddingLeft="5dp"
+        android:layout_width="380dp"
+        android:id="@+id/pass_login"
+
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/btnresis_lg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resister"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
